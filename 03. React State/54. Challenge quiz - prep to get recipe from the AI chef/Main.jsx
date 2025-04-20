@@ -9,7 +9,7 @@ import { getRecipeFromChefClaude, getRecipeFromMistral } from "./ai"
  * This will be a bit harder of a challenge that will require you
  * to think critically and synthesize the skills you've been
  * learning and practicing up to this point.
- * 
+ *
  * We'll start with a mini-quiz:
  * 
  * 1. Think about where the recipe response should live and how you're
@@ -18,9 +18,12 @@ import { getRecipeFromChefClaude, getRecipeFromMistral } from "./ai"
  *    You don't need to save this to localStorage or anything more permanent
  *    than in React's memory for now.)
  *  
- * 
+ *
+ I'm going to save the response in React state. 
+ 
  * 2. What action from the user should trigger getting the recipe?
- * 
+ *  
+ When the user clicks the get a recipe button
  */
 
 export default function Main() {
